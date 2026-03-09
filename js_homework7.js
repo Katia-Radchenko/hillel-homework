@@ -29,3 +29,12 @@ const trustedEmails = arr
 console.log(trustedEmails);
 
 
+//Homework Part.2
+
+const regexWords = /\b[B-Zb-z]{6,}\b/g;
+
+
+const text = "Wonderful Joyful Щастя Час Завдання Яблуко"
+const matches = text.match(regexWords);
+
+console.log(matches);
